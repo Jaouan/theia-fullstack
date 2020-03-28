@@ -1,0 +1,11 @@
+export ZSH="/root/.oh-my-zsh"
+ZSH_THEME="gallois"
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+source $ZSH/oh-my-zsh.sh
+
+[ -s "/root/.jabba/jabba.sh" ] && source "/root/.jabba/jabba.sh"
+[ ! -f "./.jabbarc" ] && jabba use openjdk@1.13.0
+[ -f "./.jabbarc" ] && jabba use
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
