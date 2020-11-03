@@ -4,7 +4,6 @@
     "@theia/callhierarchy": "latest",
     "@theia/console": "latest",
     "@theia/core": "latest",
-    "@theia/cpp-debug": "latest",
     "@theia/debug": "latest",
     "@theia/editor": "latest",
     "@theia/editor-preview": "latest",
@@ -69,7 +68,7 @@
     "vscode-references-view": "http://open-vsx.org/api/ms-vscode/references-view/0.0.47/file/ms-vscode.references-view-0.0.47.vsix",
     "vscode-builtin-java": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/java-1.39.1-prel.vsix",
     "vscode-java-redhat": "https://github.com/redhat-developer/vscode-java/releases/download/v0.61.0/redhat.java-0.61.0.vsix",
-    "vscode-java-debug": "https://github.com/microsoft/vscode-java-debug/releases/download/0.29.0/vscode-java-debug-0.29.0.vsix",
+    "vscode-java-debug": "https://github.com/microsoft/vscode-java-debug/releases/download/0.29.0/vscjava.vscode-java-debug-0.29.0.vsix",
     "vscode-java-test": "https://github.com/microsoft/vscode-java-test/releases/download/0.25.0/vscjava.vscode-java-test-0.25.0.vsix",
     "vscode-java-dependency-viewer": "https://github.com/microsoft/vscode-java-dependency/releases/download/0.14.0/vscjava.vscode-java-dependency-0.14.0.vsix"
   }
